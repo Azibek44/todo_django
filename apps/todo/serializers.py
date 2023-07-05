@@ -5,4 +5,4 @@ from apps.users.models import User
 class ToDoSerializer(serializers.ModelSerializer):
     class Meta: 
         model = ToDo
-        fields = "__all__"
+        fields = "__all__" 
