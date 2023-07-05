@@ -8,7 +8,7 @@ from apps.todo.models import ToDo
 
 class ToDoAPIViewSet(GenericViewSet,
                      mixins.ListModelMixin,
-                     mixins.CreateModelMixin,
+                     mixins.CreateModelMixin, 
                      mixins.UpdateModelMixin,
                      mixins.RetrieveModelMixin,
                      mixins.DestroyModelMixin):
