@@ -16,7 +16,7 @@ class User(AbstractUser):
     )
     created_at = models.DateTimeField(
         auto_now=True,
-        verbose_name="Дата создания"
+        verbose_name="Дата создани " 
     )
 
     def __str__(self) -> str:
