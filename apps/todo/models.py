@@ -8,7 +8,7 @@ class ToDo(models.Model):
         on_delete=models.CASCADE
     )
     title = models.CharField(
-        max_length=255,
+        max_length=255, 
         verbose_name="Заголовок",
         unique=True
     )
